@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #1f2e45;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.console.ConsoleController">
+   <children>
+      <TextField fx:id="commandPromt" layoutX="14.0" layoutY="355.0" onKeyPressed="#keyPressed" prefHeight="25.0" prefWidth="576.0" style="-fx-background-color: #20375c; -fx-border-color: #0daacc; -fx-border-width: 2px; -fx-border-radius: 5px; -fx-text-fill: yellow;" AnchorPane.bottomAnchor="16.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="10.0" />
+      <TextArea fx:id="consoleText" editable="false" layoutX="14.0" layoutY="14.0" prefHeight="333.0" prefWidth="576.0" stylesheets="@text-area.css" AnchorPane.bottomAnchor="53.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="14.0">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </TextArea>
+   </children>
+</AnchorPane>

@@ -1,0 +1,10 @@
+.text-area .content{
+    -fx-background-color: #20375d;
+    -fx-cursor: default;
+}
+.text-area {
+    -fx-text-fill: yellow;
+    -fx-border-radius: 5px;
+    -fx-border-color: aqua;
+    -fx-border-width: 2px;
+}

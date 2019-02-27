@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.menu.Menu">
+   <children>
+      <Label contentDisplay="CENTER" layoutX="175.0" layoutY="48.0" text="Окно еще редактируется..." textAlignment="CENTER" AnchorPane.leftAnchor="175.0" AnchorPane.rightAnchor="175.0" AnchorPane.topAnchor="48.0">
+         <font>
+            <Font name="Arial Bold" size="19.0" />
+         </font>
+      </Label>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="215.0" fitWidth="393.0" AnchorPane.bottomAnchor="92.0" AnchorPane.leftAnchor="104.0" AnchorPane.rightAnchor="103.0" AnchorPane.topAnchor="93.0">
+               <image>
+                  <Image url="@../../resources/img/menhera/hehe.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
